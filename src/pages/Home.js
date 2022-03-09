@@ -1,6 +1,6 @@
 import Nav from "../components/Nav"
 import AuthModal from "../components/AuthModal"
-import  {useState} from "react"
+import {useState} from "react"
 
 const Home = () => {
     const [showModal, setShowModal] = useState(false)
@@ -13,18 +13,18 @@ const Home = () => {
     }
     return (
         <div className="overlay">
-        <Nav minimal={false} authToken={authToken}/>
-        <div className="home">
-            <h1>Swipe Rightr®</h1>
-            <button className="primary-button" onClick={handleClick}>
-                {authToken ? 'Signout' : 'Create Account'}
-            </button>
+            <Nav minimal={false} authToken={authToken} setShowModal={setShowModal} showModal={showModal}/>
+            <div className="home">
+                <h1>Swipe Rightr®</h1>
+                <button className="primary-button" onClick={handleClick}>
+                    {authToken ? 'Signout' : 'Create Account'}
+                </button>
 
-            {showModal && (
-                <AuthModal setShowModal={setShowModal}/>
-            )}
+                {showModal && (
+                    <AuthModal setShowModal={setShowModal}/>
+                )}
 
-        </div>
+            </div>
         </div>
     )
 }
