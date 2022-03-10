@@ -133,3 +133,36 @@ nav .logo-container .logo {
     font-size:  17px;
 
 }
+
+/*------ OnBoarding Page ------*/
+
+.onboarding form {
+    display: flex;
+    justify-content: center;
+}
+
+.onboarding form section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 35%;
+}
+
+.onboarding form input {
+    padding: 15px 30px;
+    margin: 10px 0;
+    font-size: 15px;
+    border: solid 2px rgb(219,219,219);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
