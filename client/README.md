@@ -1,5 +1,12 @@
 # This is a Tinder Clone Project
 
+
+<p>- Ultimate Tinder Clone<p>
+<p>- MongoDB<p>
+<p>- Authentication<p>
+<p>- Cookies<p>
+<p>- Chat<p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
